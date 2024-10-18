@@ -8,7 +8,7 @@ public class TextAnalytics {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         try {
-            String apiKey = "e31bb7195d7542328a2af30959e87521";
+            String apiKey = "AZURE_KEY";
             String endpoint = "https://iaex04teste.cognitiveservices.azure.com/";
             System.out.println("Texto para ser analisado:");
             String textToAnalyze = sc.nextLine();
